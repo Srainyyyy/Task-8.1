@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_gradient_background"
+    android:orientation="vertical">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:paddingStart="50dp"
+        android:text="@string/welcome"
+        android:textSize="30dp"/>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="50dp"
+        android:text="@string/Let"
+        android:textStyle="bold"
+        android:textSize="50dp"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edituserName"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/round_corners_bg"
+            android:hint="@string/username"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:paddingStart="10dp"
+            android:selectAllOnFocus="true"
+            android:shadowRadius="20" />
+
+
+
+    </LinearLayout>
+
+    <android.widget.Button
+        android:id="@+id/buttonGo"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="@string/button_login"
+        android:background="@drawable/green_rectangle_button"/>
+
+
+
+</LinearLayout>

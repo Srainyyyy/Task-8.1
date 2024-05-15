@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Llama 2 ChatBot</string>
+    <string name="button_login">Go</string>
+    <string name="username">Username</string>
+    <string name="welcome">Welcome</string>
+    <string name="Let">Let\'s Chat!</string>
+    <string name="send"><![CDATA[>]]></string>
+</resources>
